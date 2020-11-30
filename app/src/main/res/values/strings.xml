@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">desafioWebService</string>
+    <string name="welcome">"Welcome to the Marvel HQ's"</string>
+    <string name="login">LOG IN</string>
+    <string name="create_account">Create account</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
 </resources>
