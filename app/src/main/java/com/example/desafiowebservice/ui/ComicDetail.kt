@@ -1,11 +1,12 @@
-package com.example.desafiowebservice
+package com.example.desafiowebservice.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.desafiowebservice.R
 
-class LoginActivity : AppCompatActivity() {
+class ComicDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_comic_detail)
     }
 }

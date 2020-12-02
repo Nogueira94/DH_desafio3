@@ -1,7 +1,8 @@
-package com.example.desafiowebservice
+package com.example.desafiowebservice.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.desafiowebservice.R
 
 class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

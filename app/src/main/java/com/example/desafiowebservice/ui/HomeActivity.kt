@@ -1,9 +1,9 @@
-package com.example.desafiowebservice
+package com.example.desafiowebservice.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.GridLayout
 import androidx.recyclerview.widget.GridLayoutManager
+import com.example.desafiowebservice.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class HomeActivity : AppCompatActivity() {
