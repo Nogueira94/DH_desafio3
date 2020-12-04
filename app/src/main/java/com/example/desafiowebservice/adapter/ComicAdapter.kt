@@ -33,7 +33,7 @@ class ComicAdapter () :RecyclerView.Adapter<ComicAdapter.ComicViewHolder>() {
 
         holder.tvComics.text = "#$comic.id"
         Glide.with(holder.ivComics.context).asBitmap()
-            .load(comic.images.toString())
+            .load(comic.image.toString())
             .into(holder.ivComics)
 
     }
