@@ -3,7 +3,9 @@ package com.example.desafiowebservice.entities
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-class Image (
+data class Image (
         @SerializedName("path") val path: String,
         @SerializedName("extension") val extension: String
-) : Serializable
+) : Serializable {
+    override fun toString() = "$path.$extension".replace("http://", "https://")
+}

@@ -10,8 +10,8 @@ data class Comic(
     @SerializedName("description") val description: String,
     @SerializedName("pageCount") val pageCount: Int,
     @SerializedName("total") val total: Int,
-    @SerializedName("textObjects") val text: ArrayList<Text>,
-    @SerializedName("date") @Expose val date: ArrayList<Date>,
-    @SerializedName("price") @Expose val price: ArrayList<Price>,
-    @SerializedName("image") @Expose val image: ArrayList<Image>
+    @SerializedName("textObjects") @Expose val text: ArrayList<Text>,
+    @SerializedName("dates") @Expose val dates: ArrayList<Date>,
+    @SerializedName("prices") @Expose val prices: ArrayList<Price>,
+    @SerializedName("images") @Expose val images: ArrayList<Image>
 ) : Serializable
